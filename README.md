@@ -1,6 +1,6 @@
 #Convolutional Neural Network
 Basic layered neural network from scratch
-Next, want to add optional convolution to layers
-First test is digit recognition (not terrible so far)
-Goal is to play connect 4
-Current working code is in Bot2.py
+
+layer.py houses the weights/biases for a layer of the neuralnet
+neuralnet.py defines a neural network, which is a list of layers with functionality that allows for forward/backpropagation and other features
+math.py adds some mathematical helper functions
